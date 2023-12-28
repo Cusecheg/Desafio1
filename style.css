@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#MenuSuperior{
+    background-color: #303030;
+    padding: 25px;
+}
+
+#TituloSuperior{
+    color: white;
+    margin: 206px 354px 197px 62px;
+    font-size: 50px;
+}
+
+#TextoSuperior{
+    color: white;
+    margin-left: 62px;
+    margin-top: -180px;
+    margin-bottom: 149px;
+    font-size: 18px;
+   
+}
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.image{
+    font-size: 40px;
+    margin-top: 96px;
+    margin-left: 171px;
+    margin-bottom: 66.82px;
+}
+
+#anos{
+    margin-left: 5px;
+}
+
+#m2{
+    margin-left: 5px;
+    margin-right: 64px;
+}
+
+#Historia{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    margin-left: 0px;
+    margin-bottom: 70px;
+}
+
+#TituloHistoria{
+    margin-top: 300px;
+    margin-left: 77px;
+    margin-bottom: 30px;
+    font-weight: 500px;
+    font-size: 40px;
+}
+ 
+#TextoHistoria{
+    margin-left: 77px;
+    font-weight: 300px;
+    font-size: 24px;
+}
+
+#arquitetura{
+    margin-top: 80px;
+    margin-left: 64px;
+    margin-right: 54px;
+}
+
+#Formulario{
+    background-color: #303030;
+    text-align: center;
+    padding: 250px;
+    padding-bottom: 50px;
+}
+
+#TituloFormulario{
+    color: white;
+    margin-top: -150px;
+    margin-bottom: 40px;
+    font-size: 34px;
+}
+
+input{
+    font-family: "Raleway";
+    margin: 40px;
+    width: 508px;
+    height: 72px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700px;
+    font-size:  24px;
+    padding-left: 30px;
+}
+
+button{
+    font-family: "Raleway"; 
+    background-color: #C07212;
+    color: white;
+    width:  286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700px;
+    font-size: 24px;
+    margin-top: 88px;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 15px #f1ac70;
+}
